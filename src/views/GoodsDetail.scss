@@ -1,0 +1,215 @@
+.goodsDetail{
+    .backTo{
+        width: 98vw;
+        height: 2.8rem;
+        background-color: rgb(24, 195, 170);
+        padding: 0 1vw;
+        .icon-jiantou3{
+            color: #fff;
+            font-size: 1.5rem;
+            height: 2.8rem;
+            line-height: 2.8rem;
+            float: left;
+            margin-right: 1.1rem;
+        }
+        .title{
+            color: #fff;
+            font-size: 1.1rem;
+            height: 2.8rem;
+            line-height: 2.8rem;
+            float: left;
+        }
+    }
+    .mainGoods{
+        .Detail{
+            width: 100vw;
+            height: 70vw;
+            background-color: #18c3a95b;
+            text-align: center;
+            line-height: 70vw;
+            .bigImg{
+                height: 100%;
+                vertical-align: middle;
+            }
+        }
+        .info{
+            padding: 0.5rem 1.1rem;
+            .biaoti{
+                text-align: left;
+                height: 2.1rem;
+            }
+            .goodsTitle{
+                text-align: left;
+                font-size: 0.8rem;
+                height: 2.1rem;
+                .price{
+                    display:inline-block;
+                    height: 2.1rem;
+                    line-height: 2.1rem;
+                    font-size: 2rem;
+                }
+                .zhe{
+                    display: inline-block;
+                    align-items: center;
+                    margin-left: 0.3rem;
+                    margin-right: 0.3rem;
+                    height: 1.05rem;
+                    line-height: 1.05rem;
+                    border-radius: 0.3rem;
+                    padding: 0 6px;
+                    color: rgb(242, 129, 129);
+                    border:  1px solid rgb(242, 129, 129);
+                    
+                }
+            }
+            .publisher,.price-num{
+                text-align: left;
+                line-height: 1.8rem;
+                font-size: 0.9rem;
+                color: #999;
+            }
+        }
+        .pingfen{
+            height: 1.2rem;
+            .zuo{
+                float: left;
+                .doubanRating{
+                    color: rgb(214, 186, 140);
+                }
+            }
+            .you{
+                float: right;
+            }
+        }
+        .jieaho{
+            h5{
+                text-align: left;
+                line-height: 1.8rem; 
+                font-size: 1rem;
+                color: #999;
+            }
+            
+        }
+    }
+    .bottom{
+        width: 100vw;
+        height: 3rem;
+        background-color: #fff;
+        border-top: 1px solid rgb(201, 201, 201);
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+
+        .item{
+            font-size: 0.24rem;
+            color: #fff;
+        }
+        .first{
+            color: black;
+            width: 25vw;
+            .iconfont{
+                margin-right: 0.2rem;
+                font-size: 1.8rem;
+            }
+        }
+        .second{
+            color: black;
+            width: 25vw;
+            .iconfont{
+                margin-right: 0.2rem;
+                font-size: 1.8rem;
+            }
+        }
+        .third{
+            width: 50vw;
+            .mint-button{
+                padding: 0 9vw;
+                height: 8.6vw;
+                line-height: 8.6vw;
+                border-radius: 62.3rem;
+                background-color: rgb(242, 129, 129);
+                border-color: rgb(242, 129, 129);
+                outline: none;
+                border: none;
+                color: #fff;
+            }
+        }
+    }
+    .popup{//??????
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.356);
+    }
+    .addInfo{
+        background-color: #fff;
+        padding: 3vw 2vw 2vw;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 35vw;
+    
+        .close{
+            width:6vw;
+            position: absolute;
+            top: 1.2vw;
+            right: 1.2vw;
+        }
+    
+        .skus{
+            display: flex;
+            align-items: center;
+            .sku{
+                margin-left: 0.2rem;
+                border-radius: 0.1rem ;
+                background-color: rgba(99, 99, 99, 0.568);
+                padding: 0.6vw 2vw;
+                color: #fff;
+                font-size: 4vw;
+    
+                &.active{
+                    background-color: rgb(24, 195, 170);
+                }
+            }
+        }
+    
+        .num{
+            margin-top: 3vw;
+            display: flex;
+            align-items: center;
+    
+            .decrease,.increase{
+                    margin-left: 0.4rem;
+                    border-radius: 0.1rem;
+                    background-color: #999;
+                    padding: 0.1rem 0.4rem;
+                    color: #000;
+                    font-size: 4vw;
+                  .reduce{
+                    width: 0.48rem;
+                  } 
+                  .addya{
+                    width: 0.48rem;
+                  }
+            }
+    
+            .val{
+                margin-left: 0.4rem;
+                font-size: 4vw;
+            }
+        }
+    
+        .submit{
+            margin-top: 3vw;
+            background-color:rgb(24, 195, 170);
+            width: 100%;
+            font-size: 4vw;
+        }
+    }
+
+}
